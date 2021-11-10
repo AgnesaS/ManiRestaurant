@@ -1,4 +1,3 @@
-# hoxton-html-project
 
-Mani Restaurant Website (HTML && CSS)
+#Mani Restaurant Website (HTML && CSS)
 
