@@ -38,6 +38,21 @@ header{
 #logo a{
     color: black;
     font-weight: 400;
+    animation: logo 5s infinite linear;
+
+}
+@keyframes logo{
+    0%{
+        color: black;
+    }
+    50%{
+        color: #ffc420;
+    }
+
+    100%{
+        color: black;
+    }
+    
 }
 
 nav ul li{
@@ -188,8 +203,6 @@ nav ul li a{
     
   
 }
-.food-one__content .food-price{
-
   
     
     
