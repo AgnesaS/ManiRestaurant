@@ -1,7 +1,7 @@
 # Hoxton HTML & CSS Project :coffee: 
 
 ## INTRODUCTION
-##Restaurant Website 
+Restaurant Website <br>
 All ordered in a single websites dedicated to customer service.<br>
 The website will contain the following features:
 * Online slot reservation 
