@@ -202,12 +202,7 @@ nav ul li a{
     
   
 }
-.event-one__content .event-price{
 
-  
-    
-    
-}
 .event-one__content .event-button {
      
         background: #ffc420;
@@ -215,8 +210,10 @@ nav ul li a{
         font-size: 1.3rem;
         padding: 12px 65px;
         border-radius: 6px; 
-      
-
+    
+}
+.event-one__content .event-button:hover{
+    background-color: black;
 }
 footer {
 	padding: 20px 23px;

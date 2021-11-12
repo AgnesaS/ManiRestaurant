@@ -204,18 +204,17 @@ nav ul li a{
   
 }
   
-    
-    
-}
-.food-one__content .food-button {
+.food-button {
      
         background: #ffc420;
         color: #fff;
         font-size: 1.3rem;
         padding: 12px 65px;
-        border-radius: 6px; 
-      
+        border-radius: 6px;  
+      }
 
+.food-button:hover{
+    background-color: black;
 }
 footer {
 	padding: 20px 23px;
