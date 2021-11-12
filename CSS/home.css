@@ -150,7 +150,7 @@ section {
 .home{
 
     display: flex;
-	background-image: url(./Assests/home_bacground-image.jpg);
+	background-image: url(../Assests/home_bacground-image.jpg);
 	color: #fff;
 	background-size: cover;
 	background-attachment: fixed;
