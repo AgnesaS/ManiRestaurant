@@ -33,28 +33,28 @@ header{
 }
 #logo{
     padding: 1rem;
-	animation: logo 5s infinite linear;
 
 }
 
 #logo a{
     color: black;
     font-weight: 400;
+	animation: logo 5s infinite linear;
 }
 
-@keyframes logo {
+@keyframes logo{
     0%{
         color: black;
     }
     50%{
         color: #ffc420;
     }
+
     100%{
         color: black;
     }
     
 }
-
 
 nav ul li{
     list-style-type: none;
@@ -125,9 +125,28 @@ section {
 	font-family: var(--fuentemain);
 
 }
-
-
-
+.arrow-down{
+    height:50px;
+    width: 50px;
+    margin-left: 750px;
+    animation: arrow-down 0.7s infinite linear;
+}
+.arrow-down svg:hover{
+    fill: #ffc420;
+    transform: scale(1.1);
+}
+@keyframes arrow-down {
+    0%{
+         padding-bottom: 15px;
+    }
+    50% {
+     padding-top: 15px;
+       }
+    100%{
+        padding-bottom:15px ;
+    }
+     
+ }
 .home{
 
     display: flex;
@@ -135,7 +154,7 @@ section {
 	color: #fff;
 	background-size: cover;
 	background-attachment: fixed;
-	min-height: 800px;
+	min-height: 700px;
 	font-family: var(--fuentemain);
 }
 
@@ -316,5 +335,4 @@ footer a{
 	transform: scale(1.2);
     background-color: #ffc420;
 }
-
 
