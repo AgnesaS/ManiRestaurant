@@ -109,7 +109,7 @@ section{
 
 
 .section-one__text-2 {
-	font-size: 75px;
+	font-size: 50px;
 	font-weight: 400;
     margin-left: -3px;
     color: white;
@@ -122,18 +122,18 @@ section{
 
 .section-one  a {
 	display: inline-block;
-	background: #373D20;
+	background: #ffc420;
 	color: #fff;
 	font-size: 25px;
 	padding: 12px 36px;
 	margin-top: 20px;
 	border-radius: 6px;
-	border: 2px solid #373D20; 
+	border: 2px solid #ffc420; 
 	transition: all 0.5s ease;
 }
 
 .section-one a:hover {
-	color: #373D20;
+	color: #ffc420;
 	background: white;
 }
 
