@@ -94,8 +94,7 @@ nav ul li a{
 }
 
 .section-one{
-    min-height: 700px;
-    background-image: url(https://kickfin.com/wp-content/uploads/2019/10/AdobeStock_165553262.jpeg);
+    background-image: url(https://images.pexels.com/photos/7020290/pexels-photo-7020290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     color: #fff;
 	background-size: cover;
 	background-attachment: fixed;
@@ -138,6 +137,75 @@ section{
 	background: white;
 }
 
+.section-two {
+	padding: 100px 0;
+}
+
+.section-two .title {
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 60px;
+	padding-bottom: 20px; 
+	font-family: var(--fuentemain);
+
+}
+.section-two .max-width{
+    display: grid;
+    place-content: center;
+    
+}
+ .section-two_content{
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    gap:50px;
+    font-family: var(--fuentesecond); 
+
+}
+
+
+ .section-two__column-left img {
+	height: 300px;
+	width: 500px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+
+.section-two__column-right .text {
+    margin: 10px 10px 30px 0px;
+	font-size: 23px;
+	font-weight: 600;
+   
+   
+}
+
+.section-two__column-right p {
+	text-align: justify;
+    width:60ch;
+
+}
+
+.section-two__column-right a {
+	display: inline-block;
+	background: #373D20;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px 30px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border: 2px solid #373D20; 
+	transition: all 0.5s ease;
+}
+
+.section-two__column-right a:hover {
+	color: #373D20;
+	background: white;
+} 
 
 footer {
 	padding: 20px 23px;
