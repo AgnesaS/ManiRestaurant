@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservation.css">
+    <title>Reservation</title>
+</head>
+<body>
+    
+    <form action="successful.html">
+        <div class="title">
+            <h1>Make a reservation!</h1>
+        </div>
+
+        <label>
+            <select required> 
+                
+                <option value="2 People">2 People </option>
+                <option value="4 People">4 People</option>
+                <option value="6 People">6 People</option>
+                <option value="8 People">8 People</option>
+                <option value="10 People">10 People</option>
+                <option value="12 People">12 People</option>
+                <option value="14 People">14 People</option>
+                <option value="20 People">20 People</option>
+                <option value="50 People">50 People</option>
+                <option value="100 People">100 People</option>
+   
+            </select>
+         
+            <input type="date" id="date" name="date"
+            value="2021-11-12"
+            min="2021-11-12" max="2022-12-31">
+
+            <input type="time" id="time" name="time"
+            value="7:00:00 AM"
+            min="7:00 AM" max="11:00 PM">
+    
+        </label>
+         
+        
+
+           <button type="submit">Reserve</button>
+ 
+
+         
+    </form>
+</body>
+</html>
