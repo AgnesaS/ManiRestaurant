@@ -1,2 +1,2 @@
-#Mani Restaurant Website (HTML && CSS)
+##HOXTON HTML PROJECT
 
