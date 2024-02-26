@@ -2,7 +2,7 @@
 ## INTRODUCTION
 Restaurant Website :coffee: 
  <br>
-All ordered in a single websites dedicated to customer service.<br>
+All orders in a single websites dedicated to customer service.<br>
 The website will contain the following features:
 * Online slot reservation 
 * Ordering online
